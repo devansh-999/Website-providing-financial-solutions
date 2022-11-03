@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carefirst Solutions Privated Ltd.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- sub header -->
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/companylogo.png" alt="companylogo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="loans.html">SERVICES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Services</h1>
+</section>
+<!-- loans -->
+<section class="loans">
+    <p class="loans-col">Services provided by us are listed in six categories below.</p>
+    <div class="row">
+        <div class="loans-col">
+            <h3>LOANS</h3>
+            <p>Car loan <br> Home loan <br> Gold loan <br> Business loan <br> Personal loan <br> Agricultural loan <br> Loan against property <br> and many more... </p>
+        </div>
+        <div class="loans-col">
+            <h3>INSURANCE</h3>
+            <p>Health Insurance <br> Life Insurance <br> Vehicle Insurance <br> Travel Insurance <br> Property
+                Insurance <br> Mobile Insurance <br> Term life insurance <br> and many more... </p>
+        </div>
+        
+        <div class="loans-col">
+            <h3>CREDIT CARDS</h3>
+            <p>SBI credit card <br> RBL credit card <br> YES BANK credit card <br> HDFC bank credit card <br> AXIS
+                bank credit card <br> ICICI bank credit card <br> INDUSIND bank credit card <br> and many more...
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="loans-col">
+            <h3>DEMAT ACCOUNTS</h3>
+            <p>Angel <br> Upstox <br> Sharekhan <br> Religare <br> ICICI Securities <br> HDFC Securities <br> Motilal Oswal <br> and many more... </p>
+        </div>
+        <div class="loans-col">
+            <h3>RECHARGE & BILL PAYMENT</h3>
+            <p>Mobile Recharge <br> DTH Recharge <br> Electricity Bills <br> Gas Cylinder <br> Muncipal Taxes <br> Bus Booking <br> Flight Booking <br> and many more... </p>
+        </div>
+        
+        <div class="loans-col">
+            <h3>BANKING SERVICES</h3>
+            <p>Saving Accounts <br> Current Accounts <br> Fixed Deposit <br> Recurring Deposit <br> Fund Transfer <br> QR and UPI Services <br> Mutual Funds <br> and many more...
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+    <h4></h4>
+    <p>Click below icons to redirect to our official pages</p>
+    <div class="icons">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+        <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+        <a href="https://youtube.com"><i class="fa fa-youtube"></i></a>
+    </div>
+    <p class="me">Copyright © 2021<br>Developed by <a href="https://www.linkedin.com/in/devansh-tiwari-dt999"><i class="fa fa-linkedin-square"> </i></a> Devansh Tiwari</p>
+</section>
+<!-- Javascript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
